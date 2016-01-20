@@ -4,11 +4,29 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Adaptive preview</title>
     <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <div class="dropdown">
+            <div>Все разделы<i class="fa fa-caret-down"></i></div>
+            <ul>
+                <li><a href="#">экстрим экстрим экстрим</a></li>
+                <li><a href="#">экстрим</a></li>
+                <li><a href="#">экстрим</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <span class="filter"><i class="fa fa-filter"></i>Фильтр</span>
+            <!---я не знаю, какой тег это мог бы быть - select?--->
+            <form>
+                <label><i class="fa fa-search"></i></label><input type="text" placeholder="Поиск">
+            </form>
+        </div>
+    </header>
     <main>
         <section id="banner">
             <div class="banner-item">
@@ -106,31 +124,67 @@
         </section>
         <section id="casts">
             <div class="cast-item">
-               <img src="css/images/baloon.jpg">
+                <img src="css/images/baloon.jpg">
                 <p>день рождения</p>
             </div>
             <div class="cast-item">
-               <img src="css/images/baloon.jpg">
+                <img src="css/images/baloon.jpg">
                 <p>день рождения</p>
             </div>
             <div class="cast-item">
-               <img src="css/images/baloon.jpg">
+                <img src="css/images/baloon.jpg">
                 <p>день рождения</p>
             </div>
             <div class="cast-item">
-               <img src="css/images/baloon.jpg">
+                <img src="css/images/baloon.jpg">
                 <p>день рождения</p>
             </div>
             <div class="cast-item">
-               <img src="css/images/baloon.jpg">
+                <img src="css/images/baloon.jpg">
                 <p>день рождения</p>
             </div>
             <div class="cast-item">
-               <img src="css/images/baloon.jpg">
+                <img src="css/images/baloon.jpg">
                 <p>день рождения</p>
             </div>
         </section>
     </main>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-gift"></i>
+                        <p>События</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-eye"></i>
+                        <p>Недавнее</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-heart-o"></i>
+                        <p>Избранное</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-user"></i>
+                        <p>Личный кабинет</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-shopping-cart"></i>
+                        <p>Корзина</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 </html>
